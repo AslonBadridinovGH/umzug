@@ -1,0 +1,26 @@
+
+
+
+#navId{
+    
+    display: flex;
+    gap: 1rem;
+
+    a{
+        text-decoration: none;
+        font-size: 1rem;
+        color:  black;
+        padding: 5px;
+        border-radius: 5px;
+        outline: invert;
+   }
+
+    a:hover {
+        color: #ffa600;
+        font-weight: bold !important;
+        text-decoration: underline;
+   }
+
+}
+
+

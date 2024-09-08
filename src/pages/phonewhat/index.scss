@@ -1,0 +1,28 @@
+.phoneWhatsApp{
+
+    position: fixed;
+    top: 30rem;
+    right: 3rem;
+    
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+
+    .phoneWhatsApp{
+        position: fixed;
+        bottom: 0;
+        right: 0.1rem;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+    
+    .phoneWhatsApp{
+        position: fixed;
+        top: 10rem
+    }
+ }

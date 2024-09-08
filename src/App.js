@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
+import Beiladung from './pages/beiladung/Beiladung';
+import ContactEmail from './pages/beiladung/contact';
+import Contact from './pages/contact';
+import Ablauf from './pages/home/Ablauf';
+import Home from './pages/home/Home';
+import Header from './pages/navbar';
+import PhoneWhatsApp from './pages/phonewhat';
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'; 
+
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+            <Route path='/' element={ <Header/> }>
+              <Route index element={ <Home/> }/>
+              <Route path='/home' index element={ <Home/> }/>
+              <Route path='/ablauf' element={ <Ablauf/> }/>
+              <Route path='/contactEmail' element={<ContactEmail /> }/>
+              <Route path='/contact' element={<Contact/> }/>
+              {/* <Route path='/PhoneWhatsApp' element={<PhoneWhatsApp /> }/> */}
+            </Route>
+        </Routes>
+      </Router>       
     </div>
+
   );
 }
 

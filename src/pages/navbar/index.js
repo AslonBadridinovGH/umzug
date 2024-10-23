@@ -23,7 +23,6 @@ export default function Header() {
 
                                     <div href="#" className="d-none d-sm-flex gap-2 d-lg-none text-decoration-none fw-bold text-dark">
                                         <span className='mt-2 mx-2'>Menü</span> 
-                    
                                     </div>
 
                                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
@@ -41,6 +40,15 @@ export default function Header() {
                                             } : {} )}
                                         >
                                            Home
+                                        </NavLink>
+                                        <NavLink to="/leistung" className='fs-5 fw-bold'
+                                          
+                                           style={({isActive})=>( isActive? {
+                                               backgroundColor : "blue",
+                                               padding: "5px"
+                                            } : {} )}
+                                        >
+                                           Leistung
                                         </NavLink>
 
                                         <NavLink to="/ablauf" className='fs-5 fw-bold '

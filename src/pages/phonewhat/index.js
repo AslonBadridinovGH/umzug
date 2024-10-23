@@ -18,9 +18,9 @@ export default function PhoneWhatsApp() {
 
               <div className="col-auto">
 
-                  <a href="tel:017610616066" 
+                  <a href="tel:+491793229358" 
                       className="btn btn-danger rounded d-flex align-items-center justify-content-center" 
-                      target="_blank" style= {{backgroundColor: "red", width: "60px", height: "60px" }}>
+                      target="_blank" style= {{backgroundColor: "blue", width: "60px", height: "60px" }}>
                       <FontAwesomeIcon icon={faPhone} size='2x' color='white'/>
           
                       <span class="visually-hidden">Phone</span>
@@ -28,9 +28,9 @@ export default function PhoneWhatsApp() {
               </div>
 
               <div class="col-auto">
-                  <a href="https://wa.me/17610616066" 
+                  <a href="https://wa.me/1793229358" 
                     className="btn btn-danger  d-flex align-items-center justify-content-center" 
-                    target="_blank" style={{backgroundColor: "red", width: "60px", height: "60px"}}>
+                    target="_blank" style={{backgroundColor: "blue", width: "60px", height: "60px"}}>
                       
                       <FontAwesomeIcon icon={faWhatsapp} size='3x' color='white'/>
                       <span class="visually-hidden">WhatsApp</span>

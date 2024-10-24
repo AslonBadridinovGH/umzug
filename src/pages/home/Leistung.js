@@ -53,9 +53,9 @@ export default function Leistung() {
                        
                       <h2 className='mb-5 text-primary fw-bold'>Wir vermieten  Transport</h2>
 
-                      <div className='d-flex row justify-content-between col-12'>
+                      <div className='row col-12'>
 
-                          <div className='m-0 p-0 col-sm-12 col-md-12 col-lg-6'>
+                          <div className='col-sm-12 col-md-12 col-lg-6'>
 
                               <div className='d-flex flex-column'>
                                   <h3>Boxer mit Koffer Aufbau</h3>

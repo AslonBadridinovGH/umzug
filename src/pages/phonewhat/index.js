@@ -20,19 +20,19 @@ export default function PhoneWhatsApp() {
 
                   <a href="tel:+491793229358" 
                       className="btn btn-danger rounded d-flex align-items-center justify-content-center" 
-                      target="_blank" style= {{backgroundColor: "blue", width: "60px", height: "60px" }}>
-                      <FontAwesomeIcon icon={faPhone} size='2x' color='white'/>
+                      target="_blank" style= {{backgroundColor: "aqua", width: "60px", height: "60px", opacity:0.4 }}>
+                      <FontAwesomeIcon icon={faPhone} size='2x' color='dark' />
           
                       <span class="visually-hidden">Phone</span>
                   </a>
               </div>
 
               <div class="col-auto">
-                  <a href="https://wa.me/1793229358" 
+                  <a href="https://wa.me/+491793229358" 
                     className="btn btn-danger  d-flex align-items-center justify-content-center" 
-                    target="_blank" style={{backgroundColor: "blue", width: "60px", height: "60px"}}>
+                    target="_blank" style={{backgroundColor: "aqua", width: "60px", height: "60px", opacity:0.4}}>
                       
-                      <FontAwesomeIcon icon={faWhatsapp} size='3x' color='white'/>
+                      <FontAwesomeIcon icon={faWhatsapp} size='3x' color='dark'/>
                       <span class="visually-hidden">WhatsApp</span>
                   </a>
                 

@@ -9,7 +9,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 export default function Contact() {
   return (
 
-    <div className="container-fluid mb-1 mt-5">
+    <div className="container-fluid mb-1 my-5">
 
         <section class="container d-flex flex-column gap-5">
  

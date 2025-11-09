@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Outlet, NavLink } from 'react-router-dom';
+import logo from "./turan-logo.png";
 import "./index.scss"
 
 export default function Header() {
@@ -8,11 +9,11 @@ export default function Header() {
 
         <Container fluid >
 
-                   <div className='d-flex justify-content-between bg-secondary px-2'>    
+                   <div className='d-flex justify-content-between bg-secondary px-0'>    
 
                         <Navbar.Brand href="#home">
-                            <img src="https://cdn-icons-png.flaticon.com/512/4950/4950831.png" 
-                            width="120" height="70" alt="logo"/>
+                            {/* <img src="https://cdn-icons-png.flaticon.com/512/4950/4950831.png" */}
+                            <img src={logo} width="110" height="90" alt="logo"/>
                         </Navbar.Brand>  
 
                         <Navbar expand="lg" className='d-flex justify-content-end'>
